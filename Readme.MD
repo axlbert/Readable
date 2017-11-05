@@ -13,3 +13,11 @@
 3. type npm install
 4. type npm start
 5. open http://localhost:3000 to use the project
+
+-------
+
+
+This project was developed with [Create React App](https://github.com/facebookincubator/create-react-app).
+
+
+Further installation instructions can be found in the front- and backend subfolders.
