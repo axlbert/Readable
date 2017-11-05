@@ -8,6 +8,7 @@ class CategoriesLeftNav extends Component {
         return (
             <div className='col-md-2'>
                 <div className='titleText'>Available Categories</div>
+                <br>
                 {
                     categories.map((c, i) => {
                         const linkPath = `/${c.path}`;

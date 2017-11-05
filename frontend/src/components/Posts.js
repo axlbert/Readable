@@ -54,10 +54,10 @@ class Posts extends Component {
                         });
                     }}
                 />
-                <div className='col-md-8'>
+                <div className='col-md-12'>
                     <div className='row'>
                         <div
-                            className='sortText col-md-4'
+                            className='sortText col-md-12'
                         >
                             Sort posts by
                         </div>
