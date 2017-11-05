@@ -57,14 +57,14 @@ class Posts extends Component {
                 <div className='col-md-12'>
                     <div className='row'>
                         <div
-                            className='sortText col-md-12'
+                            className='sortText col-md-4'
                         >
                             Sort posts by
                         </div>
                         <select
                             value={sortKey}
                             onChange={event => this.handleSort(event.target.value)}
-                            className="my-form-control col-md-3"
+                            className="my-form-control col-md-4"
                         >
                             <option value='-voteScore'>Max to Min Votes</option>
                             <option value='voteScore'>Min to Max Votes</option>

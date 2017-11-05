@@ -6,9 +6,8 @@ class CategoriesLeftNav extends Component {
     render() {
         const { categories, selectedCategory } = this.props;
         return (
-            <div className='col-md-2'>
+            <div className='col-md-4'>
                 <div className='titleText'>Available Categories</div>
-                <br>
                 {
                     categories.map((c, i) => {
                         const linkPath = `/${c.path}`;
