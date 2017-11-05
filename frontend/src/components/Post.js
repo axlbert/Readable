@@ -5,11 +5,16 @@ import * as actions from '../actions';
 import { MONTHS } from '../utils/constants';
 
 class Post extends Component {
+
     componentDidMount() {
         if (this.props.comments.filter(c => this.props.post.id === c.parentId).length === 0) {
             this.props.getCommentsForPost(this.props.post.id);
         }
     }
+
+    /*componentDidUpdate() {
+      console.log("updated")
+    }*/
 
     render() {
         const { post, comments } = this.props;
