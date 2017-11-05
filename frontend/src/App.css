@@ -1,28 +1,142 @@
-.App {
-  text-align: center;
+.page {
+    margin-top: 40px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.titleText {
+    text-align: center  ;
+    font-size: 0.9em
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.sortText {
+    text-align: right;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-right: 6px;
+    font-size: 1.1em
 }
 
-.App-title {
-  font-size: 1.5em;
+.category {
+    font-size: 1.0em;
+    margin: 5px;
+    display: block;
 }
 
-.App-intro {
-  font-size: large;
+.voteButton {
+    background: none;
+    border: none;
+    display: inline;
+    padding: 0px;
+    outline: none;
+    margin-left: 2px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.deletePostButton {
+    background: none;
+    border: none;
+    display: inline;
+    padding: 0px;
+    outline: none;
+    margin-left: 2px;
+}
+
+.my-form-control {
+    display: block;
+    outline: none;
+    /* width: 100%; */
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.M-5 {
+    margin: 5px;
+}
+
+.ML-5 {
+    margin-left: 5px;
+}
+
+.ML-10 {
+    margin-left: 10px;
+}
+
+.ML-9 {
+    margin-left: 9px;
+}
+
+.ML-15 {
+    margin-left: 15px;
+}
+
+.MT-20 {
+    margin-top: 20px;
+}
+
+.MT-15 {
+    margin-top: 15px;
+}
+
+.MT-10 {
+    margin-top: 10px;
+}
+
+.MT-5 {
+    margin-top: 5px;
+}
+
+.MB-1 {
+    margin-bottom: 1px;
+}
+
+.F-right {
+    float: right;
+}
+
+.commentAuthorLine {
+    font-size: 0.88em;
+    color: gray;
+}
+
+.inlineCommentAuthorLine {
+    font-size: 1.0em;
+    color: gray;
+}
+
+.P-0 {
+    padding: 0px;
+}
+
+.TA-L {
+    text-align: left;
+}
+
+.MT-0 {
+    margin-top: 0px;
+}
+
+.commentUserInput {
+    float: right;
+    width: 30%
+}
+
+.errorMessage {
+    color: red;
+    float: right;
+    width: 28%
+}
+
+.newCommentButton {
+    float: right;
+    outline: none
 }
